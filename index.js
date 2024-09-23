@@ -70,17 +70,37 @@
 //  console.log(winx[i] + '-' + boys[i])
 // }
 
-let a = {"itemsNumber":10, "itemPrice":72, "item size":28}
- console.log(a["item size"])
+// let a = {"itemsNumber":10, "itemPrice":72, "item size":28}
+//  console.log(a["item size"])
+//
+// let myPhone = {"model":'iphone 15', "price":35000, "color":'peaceful sky', "version":'iOS 17.6.1'}
+//  console.log(myPhone["price"])
+//
+// let allMyPhones = [
+//     {"model":'iphone 15', "price":35000, "color":'peaceful sky', "version":'iOS 17.6.1'},
+//     {"model":'iphone 11', "price":18500, "color":'purple', "version":'iOS 17.6.1'}
+// ]
+//  for(let i=0; i<allMyPhones.length; i++){
+//   console.log(allMyPhones[i]["model"] + '-' + allMyPhones[i]["price"])
+//  }
 
-let myPhone = {"model":'iphone 15', "price":35000, "color":'peaceful sky', "version":'iOS 17.6.1'}
- console.log(myPhone["price"])
+ // let bibibi = [2, 4 ,27, 288282, 99]
+ // function sumOfArray(lalala){
+ //    let bucket=0;
+ //     for(let i=0; i<lalala.length; i++){
+ //         bucket = bucket + lalala[i]
+ //     }
+ //     return bucket
+ // }
+ //
+ // console.log(sumOfArray(bibibi))
 
-let allMyPhones = [
-    {"model":'iphone 15', "price":35000, "color":'peaceful sky', "version":'iOS 17.6.1'},
-    {"model":'iphone 11', "price":18500, "color":'purple', "version":'iOS 17.6.1'}
-]
- for(let i=0; i<allMyPhones.length; i++){
-  console.log(allMyPhones[i]["model"] + '-' + allMyPhones[i]["price"])
- }
- 
+ let bibibi = [7, 292, 45, 69]
+ function productArray(lalala){
+    let bucket=1;
+    for(let i=1; i<lalala.length; i++){
+        bucket *= lalala[i]
+    }
+    return bucket
+}
+console.log(productArray(bibibi))
