@@ -1,4 +1,5 @@
- // for (let i=0; i<=100; i++){
+const prompt = require("prompt-sync")();
+// for (let i=0; i<=100; i++){
  //    console.log(i+ 'тест')
  // }
 
@@ -95,12 +96,25 @@
  //
  // console.log(sumOfArray(bibibi))
 
- let bibibi = [7, 292, 45, 69]
- function productArray(lalala){
-    let bucket=1;
-    for(let i=1; i<lalala.length; i++){
-        bucket *= lalala[i]
-    }
-    return bucket
+//  let bibibi = [7, 292, 45, 69]
+//  function productArray(lalala){
+//     let bucket=1;
+//     for(let i=1; i<lalala.length; i++){
+//         bucket *= lalala[i]
+//     }
+//     return bucket
+// }
+// console.log(productArray(bibibi))
+
+ function bobobo(times){
+  for (let i=0; i < times; i++) {
+      console.log("test");
+  }
+ }
+ let user = prompt("скільки разів потрібно ввести слово 'test'?");
+user = parseInt(user);
+if (!isNaN(user) && user > 0) {
+    bobobo(user);
+} else {
+    console.log("ти гусь?!");
 }
-console.log(productArray(bibibi))
